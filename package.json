@@ -1,0 +1,18 @@
+{
+  "name": "express-practical-01-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible static diagnostics of Express.js lib directory",
+  "scripts": {
+    "audit": "node tools/audit.mjs ../express/lib",
+    "lint": "node tools/lint.mjs",
+    "audit:local": "node tools/audit.mjs",
+    "setup:express": "node tools/setup.mjs"
+  },
+  "devDependencies": {
+    "acorn": "^8.14.0",
+    "acorn-walk": "^8.3.4",
+    "eslint": "^9.25.0",
+    "@eslint/js": "^9.25.0"
+  }
+}

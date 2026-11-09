@@ -1,0 +1,1135 @@
+{
+  "project": "expressjs/express",
+  "scope": [
+    "application.js",
+    "express.js",
+    "request.js",
+    "response.js",
+    "utils.js",
+    "view.js"
+  ],
+  "analyzed_at": "2026-11-09T15:21:42.458Z",
+  "root": "C:\\Users\\vlads\\VSProjects\\express\\lib",
+  "assumptions": "Підрахунок AST з навчальним правилом 1 + вузли рішень; вкладені функції аналізуються окремо. Дублікати: точні міжфайлові збіги фрагментів довжиною 6 рядків, а не промисловий CPD.",
+  "files": [
+    {
+      "file": "application.js",
+      "physical_lines": 632,
+      "nonempty_lines": 530,
+      "functions": 25,
+      "max_cc": 10,
+      "over10": 0,
+      "direct_dependencies": 11,
+      "incoming_local_dependencies": 1
+    },
+    {
+      "file": "express.js",
+      "physical_lines": 82,
+      "nonempty_lines": 64,
+      "functions": 2,
+      "max_cc": 1,
+      "over10": 0,
+      "direct_dependencies": 8,
+      "incoming_local_dependencies": 1
+    },
+    {
+      "file": "request.js",
+      "physical_lines": 528,
+      "nonempty_lines": 457,
+      "functions": 20,
+      "max_cc": 7,
+      "over10": 0,
+      "direct_dependencies": 8,
+      "incoming_local_dependencies": 1
+    },
+    {
+      "file": "response.js",
+      "physical_lines": 1051,
+      "nonempty_lines": 908,
+      "functions": 41,
+      "max_cc": 23,
+      "over10": 2,
+      "direct_dependencies": 16,
+      "incoming_local_dependencies": 1
+    },
+    {
+      "file": "utils.js",
+      "physical_lines": 272,
+      "nonempty_lines": 222,
+      "functions": 14,
+      "max_cc": 7,
+      "over10": 0,
+      "direct_dependencies": 8,
+      "incoming_local_dependencies": 2
+    },
+    {
+      "file": "view.js",
+      "physical_lines": 206,
+      "nonempty_lines": 161,
+      "functions": 7,
+      "max_cc": 8,
+      "over10": 0,
+      "direct_dependencies": 3,
+      "incoming_local_dependencies": 1
+    }
+  ],
+  "methods": [
+    {
+      "file": "response.js",
+      "function": "send",
+      "line": 126,
+      "end_line": 222,
+      "loc": 97,
+      "cc": 23,
+      "risk": "високий"
+    },
+    {
+      "file": "response.js",
+      "function": "download",
+      "line": 437,
+      "end_line": 486,
+      "loc": 50,
+      "cc": 13,
+      "risk": "помірний"
+    },
+    {
+      "file": "application.js",
+      "function": "render",
+      "line": 522,
+      "end_line": 575,
+      "loc": 54,
+      "cc": 10,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "cookie",
+      "line": 748,
+      "end_line": 781,
+      "loc": 34,
+      "cc": 8,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "View",
+      "line": 52,
+      "end_line": 95,
+      "loc": 44,
+      "cc": 8,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "(anonymous)",
+      "line": 469,
+      "end_line": 486,
+      "loc": 18,
+      "cc": 7,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "jsonp",
+      "line": 264,
+      "end_line": 308,
+      "loc": 45,
+      "cc": 7,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "sendFile",
+      "line": 375,
+      "end_line": 417,
+      "loc": 43,
+      "cc": 7,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 408,
+      "end_line": 416,
+      "loc": 9,
+      "cc": 7,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "acceptParams",
+      "line": 89,
+      "end_line": 120,
+      "loc": 32,
+      "cc": 7,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "use",
+      "line": 190,
+      "end_line": 244,
+      "loc": 55,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "header",
+      "line": 64,
+      "end_line": 83,
+      "loc": 20,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "header",
+      "line": 671,
+      "end_line": 692,
+      "loc": 22,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "redirect",
+      "line": 815,
+      "end_line": 867,
+      "loc": 53,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "compileETag",
+      "line": 130,
+      "end_line": 152,
+      "loc": 23,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "compileQueryParser",
+      "line": 162,
+      "end_line": 184,
+      "loc": 23,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "compileTrust",
+      "line": 194,
+      "end_line": 214,
+      "loc": 21,
+      "cc": 6,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "set",
+      "line": 351,
+      "end_line": 383,
+      "loc": 33,
+      "cc": 5,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "protocol",
+      "line": 297,
+      "end_line": 315,
+      "loc": 19,
+      "cc": 5,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "host",
+      "line": 418,
+      "end_line": 431,
+      "loc": 14,
+      "cc": 5,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "onfinish",
+      "line": 968,
+      "end_line": 983,
+      "loc": 16,
+      "cc": 5,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "stringify",
+      "line": 1026,
+      "end_line": 1050,
+      "loc": 25,
+      "cc": 5,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "resolve",
+      "line": 169,
+      "end_line": 187,
+      "loc": 19,
+      "cc": 5,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "handle",
+      "line": 152,
+      "end_line": 178,
+      "loc": 27,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "(anonymous)",
+      "line": 219,
+      "end_line": 241,
+      "loc": 23,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "hostname",
+      "line": 444,
+      "end_line": 458,
+      "loc": 15,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "status",
+      "line": 65,
+      "end_line": 77,
+      "loc": 13,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "format",
+      "line": 574,
+      "end_line": 599,
+      "loc": 26,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "append",
+      "line": 635,
+      "end_line": 647,
+      "loc": 13,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "render",
+      "line": 897,
+      "end_line": 921,
+      "loc": 25,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 973,
+      "end_line": 982,
+      "loc": 10,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 1034,
+      "end_line": 1046,
+      "loc": 13,
+      "cc": 4,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "defaultConfiguration",
+      "line": 90,
+      "end_line": 141,
+      "loc": 52,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "onmount",
+      "line": 109,
+      "end_line": 122,
+      "loc": 14,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "engine",
+      "line": 294,
+      "end_line": 308,
+      "loc": 15,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "param",
+      "line": 322,
+      "end_line": 334,
+      "loc": 13,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "(anonymous)",
+      "line": 472,
+      "end_line": 481,
+      "loc": 10,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "is",
+      "line": 269,
+      "end_line": 281,
+      "loc": 13,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "subdomains",
+      "line": 383,
+      "end_line": 394,
+      "loc": 12,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "links",
+      "line": 98,
+      "end_line": 111,
+      "loc": 14,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "contentType",
+      "line": 508,
+      "end_line": 514,
+      "loc": 7,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "attachment",
+      "line": 609,
+      "end_line": 618,
+      "loc": 10,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "normalizeType",
+      "line": 61,
+      "end_line": 65,
+      "loc": 5,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "setCharset",
+      "line": 225,
+      "end_line": 238,
+      "loc": 14,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "lookup",
+      "line": 104,
+      "end_line": 123,
+      "loc": 20,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "onRender",
+      "line": 139,
+      "end_line": 156,
+      "loc": 18,
+      "cc": 3,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "getrouter",
+      "line": 72,
+      "end_line": 81,
+      "loc": 10,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "path",
+      "line": 399,
+      "end_line": 403,
+      "loc": 5,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "all",
+      "line": 494,
+      "end_line": 503,
+      "loc": 10,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "listen",
+      "line": 598,
+      "end_line": 606,
+      "loc": 9,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "logerror",
+      "line": 615,
+      "end_line": 618,
+      "loc": 4,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "tryRender",
+      "line": 625,
+      "end_line": 631,
+      "loc": 7,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "range",
+      "line": 214,
+      "end_line": 218,
+      "loc": 5,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "query",
+      "line": 230,
+      "end_line": 241,
+      "loc": 12,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "xhr",
+      "line": 508,
+      "end_line": 511,
+      "loc": 4,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 101,
+      "end_line": 110,
+      "loc": 10,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "json",
+      "line": 236,
+      "end_line": 250,
+      "loc": 15,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "sendStatus",
+      "line": 325,
+      "end_line": 332,
+      "loc": 8,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 914,
+      "end_line": 917,
+      "loc": 4,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "sendfile",
+      "line": 924,
+      "end_line": 1012,
+      "loc": 89,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "onaborted",
+      "line": 929,
+      "end_line": 936,
+      "loc": 8,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "ondirectory",
+      "line": 939,
+      "end_line": 946,
+      "loc": 8,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "onerror",
+      "line": 949,
+      "end_line": 953,
+      "loc": 5,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "onend",
+      "line": 956,
+      "end_line": 960,
+      "loc": 5,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "headers",
+      "line": 999,
+      "end_line": 1007,
+      "loc": 9,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "generateETag",
+      "line": 250,
+      "end_line": 256,
+      "loc": 7,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "tryStat",
+      "line": 197,
+      "end_line": 205,
+      "loc": 9,
+      "cc": 2,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "init",
+      "line": 59,
+      "end_line": 83,
+      "loc": 25,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "mounted_app",
+      "line": 230,
+      "end_line": 237,
+      "loc": 8,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "(anonymous)",
+      "line": 232,
+      "end_line": 236,
+      "loc": 5,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "route",
+      "line": 256,
+      "end_line": 258,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "enabled",
+      "line": 420,
+      "end_line": 422,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "disabled",
+      "line": 439,
+      "end_line": 441,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "enable",
+      "line": 451,
+      "end_line": 453,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "disable",
+      "line": 463,
+      "end_line": 465,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "application.js",
+      "function": "(anonymous)",
+      "line": 471,
+      "end_line": 482,
+      "loc": 12,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "express.js",
+      "function": "createApplication",
+      "line": 36,
+      "end_line": 56,
+      "loc": 21,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "express.js",
+      "function": "app",
+      "line": 37,
+      "end_line": 39,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "accepts",
+      "line": 127,
+      "end_line": 130,
+      "loc": 4,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "acceptsEncodings",
+      "line": 140,
+      "end_line": 143,
+      "loc": 4,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "acceptsCharsets",
+      "line": 171,
+      "end_line": 174,
+      "loc": 4,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "acceptsLanguages",
+      "line": 185,
+      "end_line": 187,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "secure",
+      "line": 326,
+      "end_line": 328,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "ip",
+      "line": 340,
+      "end_line": 343,
+      "loc": 4,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "ips",
+      "line": 357,
+      "end_line": 366,
+      "loc": 10,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "path",
+      "line": 403,
+      "end_line": 405,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "stale",
+      "line": 497,
+      "end_line": 499,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "request.js",
+      "function": "defineGetter",
+      "line": 521,
+      "end_line": 527,
+      "loc": 7,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 104,
+      "end_line": 106,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 579,
+      "end_line": 579,
+      "loc": 1,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 594,
+      "end_line": 594,
+      "loc": 1,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "get",
+      "line": 702,
+      "end_line": 704,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "clearCookie",
+      "line": 715,
+      "end_line": 722,
+      "loc": 8,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "location",
+      "line": 797,
+      "end_line": 799,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 843,
+      "end_line": 845,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 847,
+      "end_line": 851,
+      "loc": 5,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "(anonymous)",
+      "line": 853,
+      "end_line": 855,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "vary",
+      "line": 878,
+      "end_line": 882,
+      "loc": 5,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "onfile",
+      "line": 963,
+      "end_line": 965,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "response.js",
+      "function": "onstream",
+      "line": 986,
+      "end_line": 988,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "(anonymous)",
+      "line": 29,
+      "end_line": 29,
+      "loc": 1,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "normalizeTypes",
+      "line": 75,
+      "end_line": 77,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "(anonymous)",
+      "line": 199,
+      "end_line": 199,
+      "loc": 1,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "(anonymous)",
+      "line": 204,
+      "end_line": 204,
+      "loc": 1,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "(anonymous)",
+      "line": 210,
+      "end_line": 210,
+      "loc": 1,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "createETagGenerator",
+      "line": 249,
+      "end_line": 257,
+      "loc": 9,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "utils.js",
+      "function": "parseExtendedQueryString",
+      "line": 267,
+      "end_line": 271,
+      "loc": 5,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "render",
+      "line": 133,
+      "end_line": 159,
+      "loc": 27,
+      "cc": 1,
+      "risk": "низький"
+    },
+    {
+      "file": "view.js",
+      "function": "renderTick",
+      "line": 153,
+      "end_line": 155,
+      "loc": 3,
+      "cc": 1,
+      "risk": "низький"
+    }
+  ],
+  "dependencies": {
+    "application.js": [
+      "./utils",
+      "./view",
+      "debug",
+      "ejs",
+      "express",
+      "finalhandler",
+      "node:http",
+      "node:https",
+      "node:path",
+      "once",
+      "router"
+    ],
+    "express.js": [
+      "./application",
+      "./request",
+      "./response",
+      "body-parser",
+      "merge-descriptors",
+      "node:events",
+      "router",
+      "serve-static"
+    ],
+    "request.js": [
+      "accepts",
+      "fresh",
+      "node:http",
+      "node:net",
+      "parseurl",
+      "proxy-addr",
+      "range-parser",
+      "type-is"
+    ],
+    "response.js": [
+      "./utils",
+      "content-disposition",
+      "cookie",
+      "cookie-signature",
+      "depd",
+      "encodeurl",
+      "escape-html",
+      "http-errors",
+      "mime-types",
+      "node:buffer",
+      "node:http",
+      "node:path",
+      "on-finished",
+      "send",
+      "statuses",
+      "vary"
+    ],
+    "utils.js": [
+      "content-type",
+      "etag",
+      "mime-types",
+      "node:buffer",
+      "node:http",
+      "node:querystring",
+      "proxy-addr",
+      "qs"
+    ],
+    "view.js": [
+      "debug",
+      "node:fs",
+      "node:path"
+    ]
+  },
+  "exact_duplicate_windows_cross_file": [],
+  "totals": {
+    "files": 6,
+    "lines": 2771,
+    "methods": 109,
+    "over10": 2,
+    "over20": 1
+  }
+}

@@ -1,0 +1,7 @@
+ПРАКТИЧНА №1 — EXPRESS.JS
+Звіт оновлено після отримання результатів ESLint (4 повідомлення).
+У report/ — DOCX та PDF. У results/ — metrics.json, eslint.json, CSV, HTML, графіки.
+Для роботи з кодом у VS Code відкрий папку Practical_1_Express_Complete.
+Команди для нового запуску: npm.cmd install; npm.cmd run setup:express; npm.cmd run audit; npm.cmd run lint.
+Express.js завантажується окремо в ../express і до ZIP не входить.
+Необхідно за можливості додати SHA коміту та власну ручну перевірку 3–5 функцій.
